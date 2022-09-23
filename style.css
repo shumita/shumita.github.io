@@ -1,0 +1,184 @@
+/*  #694E4E: dark brown
+    #886F6F: medium brown
+    #C1A3A3: light brown
+    #F3C5C5: light pink */
+
+/*Basic stuff*/
+div#container{width:100%;float:left;box-sizing:border-box;height:100%;}
+
+h1{background-color:#C1A3A3;text-align:center;padding:3vw}
+
+h1#top {margin: 0;}
+
+p#tagline{text-align:center;background-color:#694E4E;padding:1vw;color:#F3C5C5;margin: 0;}
+
+li.nav{list-style-type:none;text-align:center;}
+
+nav{background-color:#F3C5C5;}
+
+a{color:#886F6F;}
+
+a:hover{color: black;}
+
+nav a{text-decoration: none;}
+
+nav a:hover{color:#382929;border:solid;border-color:#694E4E;}
+
+a.pic:hover{clear;}
+
+body{background-color:#F3C5C5;font-family:"Courier New", "Lucida Console", "Andale Mono", monospace;}
+
+div#main-content{background-color:#C1A3A3;padding:2vw;margin-right:0;height:100%;}
+
+div#home{float:left;width:80%;box-sizing:border-box;padding:0;margin-right:0;height:75vh;text-align: center;}
+
+.gif{text-align: center;}
+
+header{text-align:center;box-sizing:border-box;color:#694E4E;}
+
+ul{text-align:center;padding-top:5vw;padding-bottom:5vw;font-size: calc(1px + 2vw);}
+
+p.medium{text-align: center;padding: 1vw;font-size: calc(1px + 1.5vw);color: black;}
+
+p.medium:hover{border-style: solid;border-color: #694E4E;}
+
+p#credit{border-style:solid;border-color:#694E4E;padding:2vw; font-size: calc(2px + 2vw);}
+
+footer{text-align:center;clear:both;padding:2vw;background-color: #694E4E;color: #F3C5C5;}
+
+a.credit:hover{color:#000000;}
+
+div.gifs{text-align: center;}
+
+h3{text-align: center;}
+
+div.current h3{text-align: center;padding: 1vw;}
+
+p.big {text-align: center; font-size: calc(2px + 2vw);}
+
+*{margin:0;box-sizing:border box;}
+
+div.wip p{padding: 1vw;}
+
+div.container-fluid img:hover{
+    transition: 1s;
+    transform: scale(1.1);}
+
+.col-lg-4 {text-align: center;padding: 1.5vw;}
+
+.col-lg-3 {text-align: center;padding: 1.5vw;}
+
+
+
+/*end of basic*/
+
+
+/*responsive*/
+@media screen and (max-width: 768px){
+    div#container{float: none; width: 100%;}
+    div#main-content {float: none; width: 100%;}
+    nav {float: none; width: 100%;}
+    li.nav {display: inline; padding-left: 3vw; padding-right: 3vw; text-align: center;font-size: calc(0.5px + 2vw);}
+    div#interests {display: none;}}
+/*end responsive*/
+
+/*homepage pictures*/
+.box1 {
+    height:50vh;
+    background-image: url("images/cherub.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20vw;
+    border: 7px solid white;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    margin-top: 3em;
+    position: absolute;
+    left: 15%;
+    z-index: 5;
+    transform: rotateZ(-12deg);}
+
+.box2 {
+    background-image: url("images/idori13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:50vh;
+    width: 20vw;
+    border: 7px solid white;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    margin-top: 3em;
+    position: absolute;
+    left: 35%;
+    z-index: 3;
+    transform: rotateZ(4deg);}
+
+.box3 {
+    background-image: url("images/sewing-poster.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:50vh;
+    width: 20vw;
+    border: 7px solid white;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    margin-top: 3em;
+    position: absolute;
+    left: 60%;
+    z-index: 2;
+    transform: rotateZ(-7deg);}
+
+.box4 {
+    background-image: url("images/ivy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:50vh;
+    width: 20vw;
+    border: 7px solid white;
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    margin-top: 3em;
+    position: absolute;
+    left: 85%;
+    z-index: 1;
+    transform: rotateZ(10deg);}
+
+.text {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 15vh;
+    font-family: monospace;
+    background-color: rgba(0,0,0,.3);
+    height: 70%;
+    opacity: 0;
+    transition: opacity 1s ease;}
+
+.box1:hover .text{opacity: 1;}
+
+.box2:hover .text{opacity: 1;}
+.box2:hover {z-index: 6;}
+
+.box3:hover .text{opacity: 1;}
+.box3:hover {z-index: 7;}
+
+.box4:hover .text{opacity: 1;}
+.box4:hover {z-index: 8;}
+
+.rotate-boxes {position: relative; margin: 0;text-align: center; margin-left: 0;}
+
+.wrapper{
+    margin: 0 auto;
+    height: 100%;
+    background-color:#F3C5C5;
+}
+
+/*Works in Progress*/
+.wip{text-align: center;margin: 2vw 7vh;}
+
+.current{padding-top: 80vh;
+    text-align: center;
+
+}
+
+/*End of homepage images*/
