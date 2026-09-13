@@ -85,7 +85,7 @@ div.container-fluid img:hover{
 /*homepage pictures*/
 .box1 {
   height:50vh;
-  background-image: url("funandhome-images/candy-hair.jpg");
+  background-image: url("images/cherub.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -99,7 +99,7 @@ div.container-fluid img:hover{
   transform: rotateZ(-12deg);}
 
 .box2 {
-  background-image: url("funandhome-images/isa-portrait.png");
+  background-image: url("images/idori13.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -114,7 +114,7 @@ div.container-fluid img:hover{
   transform: rotateZ(4deg);}
 
 .box3 {
-  background-image: url("funandhome-images/brat.jpg");
+  background-image: url("images/sewing-poster.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -129,7 +129,7 @@ div.container-fluid img:hover{
   transform: rotateZ(-7deg);}
 
 .box4 {
-  background-image: url("funandhome-images/pippa-sewingmachine.png");
+  background-image: url("images/ivy.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
