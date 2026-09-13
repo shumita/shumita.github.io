@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shumita Littlefield | Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+  </head>
+
+  <body>
+        <div id="page-wrapper">
+          <div id="container">
+    
+    <header>
+      <h1 id="top">Shumita Littlefield</h1>
+      <p id="tagline">Artist, Illustrator, Graphic Designer, and Toy Designer.</p>
+    </header>
+    
+  <nav>
+    <ul id="nav-bar">
+      <li class="nav"><a href="https://shumita.github.io/cs103-index">Home</a></li>
+      <li class="nav"><a href="https://shumita.github.io/cs103-about">About</a></li>
+      <li class="nav"><a href="https://shumita.github.io/cs103-gallery">Gallery</a></li>
+      <li class="nav"><a href="https://shumita.github.io/cs103-contact">Contact</a></li>
+    </ul>
+  </nav>
+
+<div id="main-content">
+  <h2>My Art Galleries</h2>
+
+  <p class="medium" onmouseover="document.getElementById('demo').innerHTML = 'Some Traditional Mediums are: Pencil, Charcoal, Acrylic and Oil Paint, Ink, Watercolor, etc.';"><a href="https://cs-people.bu.edu/shumital/lightbox/my-pages/traditional">My Traditional Art Gallery.</a></p>
+
+  <p class="medium" onmouseover="document.getElementById('demo').innerHTML = 'Some Digital Art Programs are: Photoshop, ibisxPaint, Procreate, Clip Studio Paint, Krita, etc.';"><a href="https://cs-people.bu.edu/shumital/lightbox/my-pages/digital">My Digital Art Gallery.</a></p>
+
+  <p class="medium" onmouseover="document.getElementById('demo').innerHTML = 'Some Graphic Design Programs are: Photoshop, Adobe Illustrator, InDesign, GIMP, Blender, etc.';"><a href="https://cs-people.bu.edu/shumital/lightbox/my-pages/design">My Graphic Design Gallery.</a></p>
+
+  <p class="medium" onmouseover="document.getElementById('demo').innerHTML = 'Some Other Art Mediums are: Sewing, Sculpture, Knitting/Crochet, Animation, etc.';"><a href="https://cs-people.bu.edu/shumital/lightbox/my-pages/other_art">My Other Art Gallery.</a></p>
+<br>
+  <div id="demo" style="background:#694E4E;color:#F3C5C5;padding:5vh 0;font-size:3vw;text-align:center;border-radius:7vw;height:30vh;">
+  
+</div>
+</div>
+</div>
+
+<footer>
+  <p>Shumita Littlefield &copy; 2022 <a class="credit" href="https://cs-people.bu.edu/shumital/credit">Credit</a></p>
+</footer>
+
+</div>
+</body>
+
+</html>
