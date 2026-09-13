@@ -1,7 +1,0 @@
-a. https://cs-people.bu.edu/shumital/index
-
-b. I created both the HTML and CSS from scratch.
-
-c. For my JS utilities, I added the Lightbox to my image galleries (and I did the presentation on it), and I also added tabs on my About Me page. The Lightbox toolkit was provided by Lokesh Dhakar, and the tabs came from W3Schools.
-
-d. I added JS from scratch in the main gallery section of my web page. I added a box that displays a list of examples of each type of media I made a section for.
