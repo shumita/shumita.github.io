@@ -85,7 +85,7 @@ div.container-fluid img:hover{
 /*homepage pictures*/
 .box1 {
   height:50vh;
-  background-image: url("funandhome-images/isa-portrait.png");
+  background-image: url("funandhome-images/candy-hair.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -99,7 +99,7 @@ div.container-fluid img:hover{
   transform: rotateZ(-12deg);}
 
 .box2 {
-  background-image: url("funandhome-images/candy-hair.jpg");
+  background-image: url("funandhome-images/isa-portrait.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
